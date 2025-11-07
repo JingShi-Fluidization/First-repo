@@ -11,6 +11,8 @@ plt.close('all')
 plt.rcParams.update({'font.size': 12})
 import os # For saving plots
 
+# Test #
+
 ########## User's settings ##########
 n_heights = 3            # Number of layers along reactor height
 regions = ["core", "annulus"]  # Division on the horizontal plane
@@ -266,5 +268,6 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
 
     
